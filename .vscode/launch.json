@@ -1,0 +1,52 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:test}",
+            "name": "Debug test",
+            "program": "${workspaceFolder:test}/.build/debug/test",
+            "preLaunchTask": "swift: Build Debug test"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:test}",
+            "name": "Release test",
+            "program": "${workspaceFolder:test}/.build/release/test",
+            "preLaunchTask": "swift: Build Release test"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:test}",
+            "name": "Debug testLib",
+            "program": "${workspaceFolder:test}/.build/debug/testLib",
+            "preLaunchTask": "swift: Build Debug testLib"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:test}",
+            "name": "Release testLib",
+            "program": "${workspaceFolder:test}/.build/release/testLib",
+            "preLaunchTask": "swift: Build Release testLib"
+        }
+    ]
+}

@@ -1,0 +1,5 @@
+module libprism [system] {
+    header "prism.h"
+    link "prism"
+    export *
+}
